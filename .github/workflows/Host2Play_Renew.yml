@@ -3,7 +3,7 @@ name: Host2Play 续期
 on:
   workflow_dispatch: # 保留手动触发功能
   schedule:
-    - cron: '0 */7 * * *' # 定时触发（示例：每天北京时间 20:00 运行）
+    - cron: '0 */6 * * *' # 定时触发（示例：每天北京时间 20:00 运行）
 
 permissions:
   actions: write
